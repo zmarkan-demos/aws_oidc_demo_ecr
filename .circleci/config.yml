@@ -81,5 +81,6 @@ workflows:
           context:
             - aws_oicd_demo_ecr-aws-role-arn
             - aws
-    
-# VS Code Extension Version: 1.5.1
+
+
+
