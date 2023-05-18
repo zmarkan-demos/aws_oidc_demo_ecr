@@ -41,7 +41,7 @@ jobs:
       - checkout
       - setup_remote_docker
       - aws-cli/setup:
-          role-arn: $AWS_OICD_ARN_VAR	
+          role-arn: $AWS_OIDC_ARN_VAR	
           # optional parameters
           profile-name: "OIDC-PROFILE"
           role-session-name: circleci-aws-ecr-publish-job
