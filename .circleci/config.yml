@@ -79,7 +79,7 @@ workflows:
           requires:
             - build-and-test
           context:
-            - aws_oicd_demo_ecr-aws-role-arn
+            - aws_oidc_demo_ecr-aws-role-arn
             - aws
 
 
